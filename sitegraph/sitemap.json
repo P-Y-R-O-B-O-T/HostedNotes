@@ -18,7 +18,7 @@
     ],
     "links": [
       "hostednotes/broken-link/",
-      "HostedNotes/vault/intro/"
+      "vault/intro/"
     ],
     "backlinks": [],
     "nodeStyle": {}
@@ -32,7 +32,7 @@
       "#introduction"
     ],
     "links": [
-      "HostedNotes/vault/architecture/"
+      "vault/architecture/"
     ],
     "backlinks": [],
     "nodeStyle": {}
@@ -48,7 +48,7 @@
     ],
     "nodeStyle": {}
   },
-  "HostedNotes/vault/intro/": {
+  "vault/intro/": {
     "external": false,
     "exists": false,
     "title": "intro",
@@ -59,7 +59,7 @@
     ],
     "nodeStyle": {}
   },
-  "HostedNotes/vault/architecture/": {
+  "vault/architecture/": {
     "external": false,
     "exists": false,
     "title": "architecture",
@@ -68,15 +68,6 @@
     "backlinks": [
       "hostednotes/vault/intro/"
     ],
-    "nodeStyle": {}
-  },
-  "HostedNotes/": {
-    "external": false,
-    "exists": true,
-    "title": "HostedNotes",
-    "tags": [],
-    "links": [],
-    "backlinks": [],
     "nodeStyle": {}
   }
 }
