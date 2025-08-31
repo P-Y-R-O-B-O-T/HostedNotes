@@ -1,5 +1,5 @@
 {
-  "/": {
+  "hostednotes/": {
     "external": false,
     "exists": true,
     "title": "Welcome to Starlight",
@@ -8,7 +8,7 @@
     "backlinks": [],
     "nodeStyle": {}
   },
-  "vault/architecture/": {
+  "hostednotes/vault/architecture/": {
     "external": false,
     "exists": true,
     "title": "Architecture",
@@ -17,15 +17,13 @@
       "#architecture"
     ],
     "links": [
-      "broken-link/",
+      "hostednotes/broken-link/",
       "vault/intro/"
     ],
-    "backlinks": [
-      "vault/intro/"
-    ],
+    "backlinks": [],
     "nodeStyle": {}
   },
-  "vault/intro/": {
+  "hostednotes/vault/intro/": {
     "external": false,
     "exists": true,
     "title": "Introduction",
@@ -36,20 +34,67 @@
     "links": [
       "vault/architecture/"
     ],
-    "backlinks": [
-      "vault/architecture/"
-    ],
+    "backlinks": [],
     "nodeStyle": {}
   },
-  "broken-link/": {
+  "hostednotes/broken-link/": {
     "external": false,
     "exists": false,
     "title": "How Vault Works (Broken link)",
     "tags": [],
     "links": [],
     "backlinks": [
-      "vault/architecture/"
+      "hostednotes/vault/architecture/"
     ],
+    "nodeStyle": {}
+  },
+  "vault/intro/": {
+    "external": false,
+    "exists": false,
+    "title": "intro",
+    "tags": [],
+    "links": [],
+    "backlinks": [
+      "hostednotes/vault/architecture/"
+    ],
+    "nodeStyle": {}
+  },
+  "vault/architecture/": {
+    "external": false,
+    "exists": false,
+    "title": "architecture",
+    "tags": [],
+    "links": [],
+    "backlinks": [
+      "hostednotes/vault/intro/"
+    ],
+    "nodeStyle": {}
+  },
+  "HostedNotes/": {
+    "external": false,
+    "exists": true,
+    "title": "HostedNotes",
+    "tags": [],
+    "links": [],
+    "backlinks": [],
+    "nodeStyle": {}
+  },
+  "HostedNotes/vault/intro/": {
+    "external": false,
+    "exists": true,
+    "title": "intro",
+    "tags": [],
+    "links": [],
+    "backlinks": [],
+    "nodeStyle": {}
+  },
+  "HostedNotes/vault/architecture/": {
+    "external": false,
+    "exists": true,
+    "title": "architecture",
+    "tags": [],
+    "links": [],
+    "backlinks": [],
     "nodeStyle": {}
   }
 }
