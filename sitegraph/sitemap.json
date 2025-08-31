@@ -1,0 +1,55 @@
+{
+  "/": {
+    "external": false,
+    "exists": true,
+    "title": "Welcome to Starlight",
+    "tags": [],
+    "links": [],
+    "backlinks": [],
+    "nodeStyle": {}
+  },
+  "vault/architecture/": {
+    "external": false,
+    "exists": true,
+    "title": "Architecture",
+    "tags": [
+      "#vault",
+      "#architecture"
+    ],
+    "links": [
+      "broken-link/",
+      "vault/intro/"
+    ],
+    "backlinks": [
+      "vault/intro/"
+    ],
+    "nodeStyle": {}
+  },
+  "vault/intro/": {
+    "external": false,
+    "exists": true,
+    "title": "Introduction",
+    "tags": [
+      "#vault",
+      "#introduction"
+    ],
+    "links": [
+      "vault/architecture/"
+    ],
+    "backlinks": [
+      "vault/architecture/"
+    ],
+    "nodeStyle": {}
+  },
+  "broken-link/": {
+    "external": false,
+    "exists": false,
+    "title": "How Vault Works (Broken link)",
+    "tags": [],
+    "links": [],
+    "backlinks": [
+      "vault/architecture/"
+    ],
+    "nodeStyle": {}
+  }
+}
